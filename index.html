@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COMP-6062 Week 10 Lab</title>
+    </head>
+    <body>
+        <h1> Week 10 </h1>
+        <div id="app">
+            <input type="text" v-model="firstName" placeholder="FirstName: "></input>
+            <input type="text" v-model="lastName" placeholder="Last Name: "></input>
+            <p>
+                Full Name: {{fullName}}
+            </p>
+            <input type="number" v-model="quantity"></input>
+                <p>
+                    Price per Item: ${{ pricePerItem }} 
+                </p>
+                <p>
+                    Total Price: ${{ totalPrice }} 
+                </p>
+            <button @click="clearFields">Clear Feilds</button></input>
+        </div>
+        <script src="https://unpkg.com/vue@3.4.31/dist/vue.global.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
+
+<!---VRAJ PATEL 1243437-->
